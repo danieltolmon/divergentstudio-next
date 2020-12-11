@@ -8,14 +8,6 @@ export default css`
     height: 100%;
   }
 
-  .line {
-    margin-left: 100px;
-  }
-  .vl {
-    border-right: 1px solid black;
-    height: 100%;
-  }
-
   .container-OP {
     width: 100vw;
     padding: 0px 100px 100px 30px;

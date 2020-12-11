@@ -3,6 +3,7 @@
 import OurProcess from 'components/OurProcess';
 import Banner from 'components/Banner';
 import OurProjects from 'components/OurProjects';
+import Footer from 'components/Footer';
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <main className="">
         <Banner />
         <OurProcess />
-        <OurProjects />;
+        <OurProjects />
+        <Footer />
       </main>
     </div>
   );

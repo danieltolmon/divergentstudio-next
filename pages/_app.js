@@ -39,6 +39,14 @@ function MyApp({ Component, pageProps }) {
             max-width: 1200px !important;
             margin: 0 auto;
           }
+
+          .line {
+            margin-left: 100px;
+          }
+          .vl {
+            border-right: 1px solid black;
+            height: 100%;
+          }
         `}
       </style>
     </>

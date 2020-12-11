@@ -1,11 +1,6 @@
 import css from 'styled-jsx/css';
 
 export default css`
-  .ourProjects {
-    padding: 125px 100px 100px 100px;
-    margin-top: 0px;
-  }
-
   .background-OProj {
     display: flex;
     margin-top: 0px;
@@ -64,14 +59,6 @@ export default css`
   }
   .textProject {
     text-align: justify;
-  }
-
-  .line {
-    margin-left: 100px;
-  }
-  .vl {
-    border-right: 1px solid black;
-    height: 100%;
   }
 
   @media only screen and (max-width: '768px') {
