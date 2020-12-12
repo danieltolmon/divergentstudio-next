@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "depoly": "npm run build && npm run export"
   },
   "dependencies": {
     "@webdeb/next-styles": "^1.1.1",
