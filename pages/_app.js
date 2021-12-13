@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -6,18 +6,24 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Divergent studio 🚀</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Digital Solutions for the ones looking to combine beautiful and honest design with interactive and professional coding."
+        ></meta>
+        <meta property="og:title" content="Divergent studio" />
+        <meta property="og:image" content="/background.png"></meta>
       </Head>
       <Component {...pageProps} />
       <style jsx global>
         {`
           @font-face {
-            font-family: 'Ariata Display';
-            src: url(/Fonts/AriataDisplay-Regular.woff2) format('woff2');
+            font-family: "Ariata Display";
+            src: url(/Fonts/AriataDisplay-Regular.woff2) format("woff2");
           }
 
           @font-face {
-            font-family: 'Graphik';
-            src: url(/Fonts/GraphikRegular.woff2) format('woff2');
+            font-family: "Graphik";
+            src: url(/Fonts/GraphikRegular.woff2) format("woff2");
           }
           html,
           body {
